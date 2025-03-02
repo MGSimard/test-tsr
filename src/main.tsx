@@ -26,7 +26,7 @@ if (!rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <StrictMode>
-      <RouterProvider router={router} defaultPendingMinMs={0} />
+      <RouterProvider router={router} />
     </StrictMode>
   );
 }
