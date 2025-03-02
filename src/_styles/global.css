@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+html {
+  font-size: 62.5%;
+  background: black;
+  color: white;
+}
+body {
+  font-size: 1.6rem;
+}
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+nav,
+footer {
+  flex-shrink: 0;
+}
+main {
+  flex-grow: 1;
+}
