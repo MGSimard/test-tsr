@@ -5,6 +5,7 @@ export const Route = createFileRoute("/")({
 });
 
 function App() {
+  console.log("App", new Date().toISOString());
   return (
     <main>
       <h1>Main</h1>
